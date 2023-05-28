@@ -27,6 +27,9 @@ function App() {
   return (
     <>
       <div className="app">
+        <h1>Tic Tac Toe</h1>
+        <br />
+        <hr />
         <StatusMessage square={square} winner={winner} isXNext={isXNext} />
         <Board square={square} handleClickedSquare={handleClickedSquare} />
       </div>
